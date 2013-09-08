@@ -5,8 +5,8 @@
 -->
 <project name="AWS Flow Framework Samples" default="compile" basedir=".">
     <path id="aws.java.sdk.classpath">
-        <fileset dir="${basedir}/../../third-party" includes="**/*.jar"/>
-        <fileset dir="${basedir}/../../lib" includes="**/*.jar"/>
+        <fileset dir="${basedir}/lib" includes="**/*.jar"/>
+        <fileset dir="${basedir}/lib" includes="*.jar"/>
         <pathelement location="."/>
     </path>
 	<property name="sources.dir" value="src" />
